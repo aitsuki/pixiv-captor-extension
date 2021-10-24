@@ -1,0 +1,29 @@
+#pixivCaptureBtn {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    left: 40px;
+    z-index: 99;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 1px 8px;
+    overflow: visible;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#pixivCaptureBtn.hide_capture_button {
+    visibility: hidden;
+}
+
+#pixivCaptureBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 4px 2px 24px;
+}
+
+#pixivCaptureBtn:disabled {
+    cursor: default;
+    opacity: 0.5;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixiv Captor</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+    <main class="form-signin">
+        <form id="form">
+            <div class="form-floating">
+                <input type="url" class="form-control" id="host" placeholder="Host" required>
+                <label for="host">Host</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+                <label for="username">Username</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+                <label for="passowrd">Password</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit" id="save">保存</button>
+        </form>
+    </main>
+    <script src="popup.js"></script>
+</body>
+
+</html>
